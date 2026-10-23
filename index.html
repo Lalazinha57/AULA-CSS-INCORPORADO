@@ -1,167 +1,220 @@
 <!DOCTYPE html>
-<html>
-    <head> 
-        <title> Guia do Rio de Janeiro </title>
-        <meta charset = "UTF-8" />
-    </head>
+<html lang="pt-BR">
 
-    <body style="margin: 0; font-family: Arial, Helvetica; background-color: #0C0C0C; color: #f8fafc;">
+<head>
+  <meta charset="UTF-8">
+  <title>LA Nails</title>
 
-        <header id="topo" style="background-color: #1e293b; padding: 28px 20px; text-align: center; border-bottom: 4px solid #54cf00;">
-            <h1 style="margin: 0; color: #54cf00; font-size: 34px; letter-spacing: 1px;">Guia Turistico - Rio de Janeiro</h1>
-            <p style="margin: 8px 0 18px 0;">O Rio de Janeiro continua sendo um dos principais destinos turísticos do mundo, unindo praias famosas,montanhas icônicas e uma vibrante vida cultural. Saiba mais em:</p>
-            <nav style=" background-color: #f8e96f; padding: 12px; border-radius:8px; display: inline-block; border: 1px solid #0C0C0C;">
-                <a style="color: #0C0C0C; text-decoration: none; margin: 0 14px; font-weight: 500;" href="#historia">História</a>
-                <a style="color: #0C0C0C; text-decoration: none; margin: 0 14px; font-weight: 500;" href="#atrações">Atrações</a>
-                <a style="color: #0C0C0C; text-decoration: none; margin: 0 14px; font-weight: 500;" href="#dicas">Dicas</a>
-            </nav>
-        </header>
-<hr>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica;
+      background-color: #F8D8DC;
+      color: #0c0c0c;
+    }
 
-        <main style="max-width: 900px; margin: 28px auto; padding: 0 18px;">
-            <section id="historia">
-                <h2> História Completa</h2>
-                <article>
-                    <p style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                          🏝️ O Início e a Disputa Colonial (1502–1567)
+    header {
+      background-color: #321C29;
+      padding: 28px 20px;
+      text-align: center;
+      border-bottom: 4px solid #b484b4;
+    }
+    .logo {
+      color: #ffffff; font-family: cormorant Garamond;
+    }
+    main {
+      max-width: 900px; margin: 28px auto; padding: 0 18px;
+    }
 
-                         Em janeiro de 1502, navegadores portugueses avistaram a Baía de Guanabara. Pensando tratar-se da foz de um grande rio, batizaram o local de Rio de Janeiro. Inicialmente, os portugueses não colonizaram a região, o que abriu espaço para que franceses invadissem a área em 1555 para fundar a colônia "França Antártica".
-                         Para expulsar os invasores, o militar português Estácio de Sá fundou oficialmente a cidade de São Sebastião do Rio de Janeiro em 1º de março de 1565. Após dois anos de batalhas sangrentas e com o apoio dos indígenas Temiminós, os franceses foram definitivamente expulsos em 1567. 
-                    </p>
-                    <p style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            💰 A Rota do Ouro e a Primeira Capital (1600–1808)
+    .cards {
+      background-color: #b9838b; border-left: 6px solid #A84360; padding: 18px; border-radius: 8px; margin-bottom: 32px; font-family:Poppins;
+    }
+    .sobre {
+      font-family: Poppins;
+    }
 
-                         Durante o século XVII, a cidade cresceu como exportadora de açúcar. No entanto, a grande virada ocorreu no século XVIII com a descoberta de ouro em Minas Gerais. O porto do Rio tornou-se o ponto oficial de escoamento das riquezas para a Europa. Por conta dessa enorme importância econômica e estratégica, a capital da colônia foi transferida de Salvador para o Rio de Janeiro em 1763.<br>
-                    </p>
-                    <p style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                         👑 A Corte Europeia nos Trópicos (1808–1889)
+    #paragrafo_servico {
+      font-family: Poppins ;
+    }
 
-                           Em 1808, fugindo das tropas de Napoleão, a Família Real Portuguesa e toda a sua corte desembarcaram no Rio. Da noite para o dia, a cidade deixou de ser uma província colonial para se tornar a sede do Império Português.
-                         O Rio passou por uma explosão cultural e institucional, ganhando o Banco do Brasil, a Biblioteca Nacional e o Real Horto (atual Jardim Botânico). Com a Independência em 1822 e, mais tarde, com o auge do ciclo do café, a cidade consolidou-se como a grande metrópole e capital do Império do Brasil.
-                    </p>
-                    <p style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                         🏗️ A Modernização e a República (1889–1960)
+    .letra_sobre {
+      font-family: cormorant Garamond;
+    }
 
-                            Com a Proclamação da República em 1889, o Rio precisava parecer uma capital moderna aos olhos do mundo. No início do século XX, o prefeito Pereira Passos liderou a reforma "Bota-Abaixo", que demoliu cortiços e ruelas coloniais para abrir avenidas inspiradas em Paris, como a atual Avenida Rio Branco.
-                         Esse processo de higienização urbana empurrou as populações mais pobres para os morros, acelerando o surgimento das primeiras favelas. Paralelamente, a cidade vivia sua "Época de Ouro" cultural, vendo nascer o samba moderno e, décadas mais tarde, a bossa nova.
-                    </p>
-                    <p style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            🌅 A Perda da Capital e o Rio Moderno (1960–Presente)
+    .linha  {
+      border-color: #A84360;
+    }
 
-                            Em 21 de abril de 1960, o Rio de Janeiro deixou de ser a capital federal, que foi transferida para Brasília. Entre 1960 e 1975, a cidade funcionou como o Estado da Guanabara, até fundir-se com o restante do território fluminense.
-                            Apesar de perder o poder político central, o Rio manteve-se como a principal vitrine cultural e turística do Brasil para o exterior. Nas últimas décadas, a cidade enfrentou profundos desafios socioeconômicos e de segurança pública, mas também viveu momentos de projeção global ao sediar a final da Copa do Mundo de 2014 e os Jogos Olímpicos de 2016. Hoje, a "Cidade Maravilhosa" segue como um dos maiores patrimônios culturais do planeta
-                    </p>
-                <center>
-                            <figure style="background-color: #1e293b; padding: 24px; border: 1px solid #334155 ; border-radius: 14px; ">
-                            <img src="imagem/cristo.jpg"/>
-                         <figcaption>Figura 1: Imagem do cristo rendentor</figcaption
-                         width = "360">
-                         <figure>
-                    <img src="imagem/copacabana.jpg"/>
-                         <figcaption>Figura 2:Imagem da copacana a tarde</figcaption
-                         width="360">
-                         </figure>
-                    <img src="imagem/teleferico.jpg"/>
-                         <figcaption>Figura 3:imagem do teleferico</figcaption
-                         width="360">
-                         </figure>
-                </center>
-                </article>
-            </section>
-<hr>
-            <section id="atrações">
-                <h2> Atrações Principais</h2>
-                <article>
-                   <ul>
-                            <h2>Cartões-Postais e Monumentos</h2>
-                        <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            Cristo Redentor: Localizado no Morro do Corcovado (710 metros de altitude), é o maior símbolo da cidade. Os ingressos do trem do Corcovado custam a partir de R$ 99 (baixa temporada) a R$ 110 (alta temporada).
-                            <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            Bondinho Pão de Açúcar: Na Praia Vermelha (Urca), liga a base ao Morro da Urca e ao Pão de Açúcar (396 metros de altura). Os ingressos custam a partir de R$ 175 a R$ 315 dependendo do tipo de bilhete/experiência.
-                            </li>
-                            <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            Escadaria Selarón: Conectando a Lapa a Santa Teresa, é mundialmente famosa por seus degraus coloridos revestidos de azulejos (passeio gratuito).
-                            </li>
-                            <h2>Praias e Orla</h2>
-                            <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            Praia de Copacabana: Uma das praias mais famosas do mundo, ideal para caminhar pelo calçadão e curtir o mar.
-                            </li>
-                            <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            Praia de Ipanema e Arpoador: Famosa pelo pôr do sol visto da Pedra do Arpoador e pelo clima vibrante na areia.
-                            </li>
-                            <h2>Natureza e Parques</h2>
-                            <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            Jardim Botânico: Abriga mais de 6.500 espécies de plantas, alamedas de palmeiras imperiais e muita história.
-                            </li>
-                            <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            Parque Lage: Casarão histórico com um pátio central e café aos pés do Corcovado, com entrada gratuita.
-                            </li>
-                            <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            Parque Nacional da Tijuca: Uma das maiores florestas urbanas do mundo, ideal para trilhas e cachoeiras.
-                            </li>
-                            <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            Cultura, Arte e Família
-                            </li>
-                            <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            Museu do Amanhã: Projeto arquitetônico futurista assinado por Santiago Calatrava, localizado na Praça Mauá (Porto Maravilha).
-                            </li>
-                            <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            AquaRio: O maior aquário marinho da América do Sul, na região da Gamboa, com cerca de 2.000 animais e 350 espécies.
-                            </li>
-                            <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                            Centro Cultural Banco do Brasil (CCBB): Um dos espaços culturais mais visitados do país, com exposições e teatro no Centro.
-                            </li>
-                            <li style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                              Maracanã: Estádio histórico inaugurado em 1950, com visitas guiadas disponíveis.                
-                            </li>
-                            
-                   </ul> 
-                   <center>
-                        <figure style="background-color: #1e293b; padding: 24px; border: 1px solid #334155 ; border-radius: 14px; ">
-                        <img src ="imagem/escadaria.jpg" width="360"/>
-                        <figcaption>Figura 1:Imagem da escadria da lapa</figcaption>
-                        <img src ="imagem/museu-do-amanha-rio.jpg"width="360"/>
-                   <figcaption>Figura 2:imagem do museu do amanhã</figcaption>
-                   </figure>
-                   </center>
-                </article> 
-            </section>
-<hr>
+  </style>
+</head>
 
-            <section id="dicas">
-            <h2>Dicas Culinária</h2>
-                <article>
-                    <ul>
-                        <h2> Pratos para o Café da Manhã </h2>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;">Mate de Galão com Biscoito Globo</li>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;"> Torrada Petrópolis com Requeijão</li>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;" >Pão na Chapa com Pingado </li>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;"> Tapioca de Queijo Coalho com Melaço </li>  
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;" > Açaí na Tigela com Granola</li> 
-                        <h2>Pratos para o Almoço</h2>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;"> Feijoada Carioca</li>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;"> Filé Oswaldo Aranha</li>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;"> Picadinho Carioca</li>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;">Bobó de Camarão</li>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;">Cabrito Assado com Arroz de Brócolis</li>
-                        <h2> Pratos para o Jantar</h2>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;">Bolinho de Bacalhau e Empadinhas na Mureta</li>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;">Picanha na Brasa com Arroz de Ovos (Maluco)</li>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;">Sanduíche de Pernil com Abacaxi</li>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;">Arroz de Palma ou Polvo com Brócolis</li>
-                        <li style="background-color: #1e293b; border-left: 6px solid #54cf00; padding: 18px; border-radius: 8px; margin-bottom: 32px;">Bolinho de Feijoada</li>
-                    </ul>
+<body>
 
-                </article>
-             </section>
-<hr>
-             <footer style="background-color: #1e293b; border-left: 6px solid #f8e96f; padding: 18px; border-radius: 8px; margin-bottom: 32px;">
-                <p>32988877666</p>
-                <p>© Portal Guia Turistico - Rio de Janeiro</p>
-                <p>Projeto Acadêmico SENAI MG</p>
-                <p>Desenvolvido por Larissa Amanda Arantes dos Santos -- Curso Técnico em informática para internet</p>
-                <a style="color: #f8e96f; text-decoration: none; margin: 0 14px; font-weight: 500;" href="#">Voltar ao topo</a>
-             </footer>
-        </main>
-    </body>
+  <!-- ====================================================================
+       TOPO & MENU (Com ID para ancoragem e Seletor #topo)
+       ==================================================================== -->
+  <header>
+    <div class="logo">
+      <h1>LA nails studio</h1>
+      <p>Larissa Amanda Nails Beleza,Cuidado e Autoestima</p>
+    </div>
+    <nav>
+      <!-- Links internos usando ancoragem por ID (#secao) -->
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#recurso">Preços</a>
+    </nav>
+
+  </header>
+
+  <!-- ====================================================================
+       CONTEÚDO PRINCIPAL (Centralizado na .container)
+       ==================================================================== -->
+  <main>
+
+    <!-- Seção 1: Apresentação -->
+    <section id="sobre">
+      <h2 class="letra_sobre">Sobre nós | Larissa Amanda Nails</h2>
+      <p class="sobre">
+        O Larissa Amanda Nails é um espaço dedicado à beleza, ao cuidado e à valorização da autoestima. Nosso
+        compromisso é oferecer serviços de manicure e cuidados com as unhas com profissionalismo, qualidade e atenção
+        aos detalhes, proporcionando uma experiência acolhedora e personalizada para cada cliente.
+      </p>
+      <p class="sobre">
+        Buscamos unir técnica, dedicação e elegância para valorizar a beleza individual, garantindo um atendimento
+        cuidadoso e resultados que refletem nossos padrões de qualidade.
+        </p>
+        <p class="sobre">
+        Larissa Amanda Nails — Excelência em cada detalhe, beleza em cada cuidado.
+      </p>
+    </section>
+
+    <!-- Seção 2: Cards de Produtos/Serviços -->
+    <section id="servicos">
+      <h2 class="letra_sobre">Nossos Serviços</h2>
+      <p id="paragrafo_servico">Oferecemos serviços especializados em cuidados com as unhas, combinando técnica, qualidade e sofisticação para
+        realçar a beleza e a autoestima de cada cliente.
+        Manicure tradicional
+        Cuidado completo com as unhas, incluindo corte, lixamento, tratamento das cutículas e esmaltação.
+      </p>
+      <p class="cards">
+        Pedicure
+        Cuidados com as unhas dos pés, proporcionando higiene, beleza e bem-estar.
+      </p>
+      <p class="cards">
+        Esmaltação em gel
+        Acabamento sofisticado, brilho intenso e maior durabilidade para suas unhas.
+      </p>
+      <p class="cards">
+        Alongamento de unhas
+        Unhas alongadas e personalizadas, com formatos e acabamentos que valorizam seu estilo.
+      </p>
+      <p class="cards">
+        Banho de gel
+        Reforço para as unhas naturais, ajudando a proporcionar resistência e um acabamento uniforme.
+      </p>
+      <p class="cards">
+        Nail art e decoração
+        Decorações personalizadas, desde detalhes delicados até designs modernos e sofisticados.
+      </p>
+      <p class="cards">
+        Spa dos pés
+        Um momento dedicado ao cuidado e ao relaxamento, com atenção especial ao bem-estar dos pés.
+      </p>
+      <b>
+        Seu momento de beleza começa aqui.
+        Agende seu horário e descubra uma experiência de cuidado, elegância e autoestima no Larissa Amanda Nails.
+      </b>
+    </section>
+<br>
+<hr class="linha">
+    <!-- Seção 3: RECURSO MANDATÓRIO (Pelo menos 1 dos 3 recursos abaixo) -->
+    <section id="recurso">
+      <table border="1">
+        <caption><b>Tabela comparativo de preços</b></caption>
+        <thead>
+          <tr>
+            <th>Serviço</th>
+            <th>Essencial</th>
+            <th>Premium</th>
+            <th>Luxo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Manicure tradicional</td>
+            <td>Incluído</td>
+            <td>Incluído</td>
+            <td>Incluído </td>
+          </tr>
+          <tr>
+            <td>Esmaltação em gel</td>
+            <td>Não incluso</td>
+            <td>Incluído</td>
+            <td>Incluído </td>
+          </tr>
+          <tr>
+            <td>Alongamento de unhas</td>
+            <td>Não incluso</td>
+            <td>Não incluso</td>
+            <td>Incluído</td>
+          </tr>
+          <tr>
+            <td>Alongamento de unhas</td>
+            <td>Não incluso</td>
+            <td>Não incluso</td>
+            <td>Incluído</td>
+          </tr>
+          <tr>
+            <td>Decoração simples</td>
+            <td>Não incluso</td>
+            <td>Opcional</td>
+            <td>Incluído</td>
+          </tr>
+          <tr>
+            <td>Acabamento personalizado</td>
+            <td>Básico</td>
+            <td>Completo</td>
+            <td>Exclusivo</td>
+          </tr>
+          <tr>
+            <td>Preços</td>
+            <td> R$ 35,00</td>
+            <td>R$ 65,00</td>
+            <td>R$ 120,00</td>
+          </tr>
+      </table>
+    </section>
+
+    <!-- Destaque / Promoção com <aside> -->
+    <aside>
+      <h2>✨ PROMOÇÃO ESPECIAL ✨</h2>
+      <h3>Dia de Beleza</h3>
+      <hr class="linha">
+      <p>Manicure + Esmaltação</p>
+      <h1> De R$ 45,00 para R$ 35,00</h1>
+      <small>Economize R$ 10,00</small>
+      <p>Agende seu horário e aproveite essa oportunidade para renovar seu visual.</p>
+      <button>AGENDЕ SEU HORÁRIO</button>
+    </aside>
+
+  </main>
+  <hr class="linha">
+  <!-- Rodapé -->
+  <footer>
+    <h3>LA <br>
+      Larissa Amanda
+      Nails Studio <br>
+      Beleza • Cuidado • Autoestima
+    </h3>
+    <hr>
+    <p>Entre em contato</p>
+    <p>WhatsApp • Agendamentos</p>
+    <p>WhatsApp • Agendamentos</p>
+    <p>© 2026 Larissa Amanda Nails. Todos os direitos reservados.<br>
+      Sua beleza, nosso cuidado. ♡</p>
+  </footer>
+
+</body>
+
 </html>
