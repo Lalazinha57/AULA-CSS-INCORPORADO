@@ -45,6 +45,24 @@
       border-color: #A84360;
     }
 
+    #card_promocoes {
+      background-color: #b9838b; border-left: 6px solid #A84360; padding: 18px; border-radius: 8px; margin-bottom: 32px; width: 500px; font-family:Poppins;
+    }
+    .botao {
+      background: #FFF680;
+    }
+
+    #linha_promocao {
+      border-color: #FFF680;
+    }
+
+    footer {
+      background-color: #321C29;
+      padding: 28px 20px;
+      text-align: center;
+      border-bottom: 4px solid #b484b4;
+    }
+
   </style>
 </head>
 
@@ -128,6 +146,7 @@
     </section>
 <br>
 <hr class="linha">
+<br>
     <!-- Seção 3: RECURSO MANDATÓRIO (Pelo menos 1 dos 3 recursos abaixo) -->
     <section id="recurso">
       <table border="1">
@@ -185,34 +204,35 @@
           </tr>
       </table>
     </section>
-
+<br>
+<br>
     <!-- Destaque / Promoção com <aside> -->
-    <aside>
+    <aside id="card_promocoes">
       <h2>✨ PROMOÇÃO ESPECIAL ✨</h2>
       <h3>Dia de Beleza</h3>
-      <hr class="linha">
+      <hr id="linha_promocao">
       <p>Manicure + Esmaltação</p>
       <h1> De R$ 45,00 para R$ 35,00</h1>
       <small>Economize R$ 10,00</small>
       <p>Agende seu horário e aproveite essa oportunidade para renovar seu visual.</p>
-      <button>AGENDЕ SEU HORÁRIO</button>
+      <button class="botao">AGENDЕ SEU HORÁRIO</button>
     </aside>
 
   </main>
   <hr class="linha">
   <!-- Rodapé -->
   <footer>
+    <div class="logo">
     <h3>LA <br>
       Larissa Amanda
       Nails Studio <br>
       Beleza • Cuidado • Autoestima
     </h3>
-    <hr>
     <p>Entre em contato</p>
-    <p>WhatsApp • Agendamentos</p>
-    <p>WhatsApp • Agendamentos</p>
+    <p>WhatsApp • 329888777665</p>
     <p>© 2026 Larissa Amanda Nails. Todos os direitos reservados.<br>
       Sua beleza, nosso cuidado. ♡</p>
+    </div>
   </footer>
 
 </body>
